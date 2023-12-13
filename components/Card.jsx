@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = (props) => {
   return (
-    <div className="relative group cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 max-w-md mb-8 rounded-md">
+    <div className="relative group cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 max-w-md mb-8 rounded-md h-[500px]" >
     <img
       src={props.imgSrc}
       alt="Imagen de la colección"
